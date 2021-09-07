@@ -16,6 +16,7 @@
 		52863AC226E81066001EF6A7 /* Project1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AC126E81066001EF6A7 /* Project1Tests.swift */; };
 		52863ACD26E81066001EF6A7 /* Project1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ACC26E81066001EF6A7 /* Project1UITests.swift */; };
 		52863ADB26E81CE4001EF6A7 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ADA26E81CE4001EF6A7 /* ImageModel.swift */; };
+		52863ADD26E82595001EF6A7 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ADC26E82595001EF6A7 /* Question1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		52863ACC26E81066001EF6A7 /* Project1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1UITests.swift; sourceTree = "<group>"; };
 		52863ACE26E81066001EF6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52863ADA26E81CE4001EF6A7 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		52863ADC26E82595001EF6A7 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		52863AA926E81062001EF6A7 /* Project1 */ = {
 			isa = PBXGroup;
 			children = (
+				52863ADC26E82595001EF6A7 /* Question1ViewController.swift */,
 				52863AAA26E81062001EF6A7 /* AppDelegate.swift */,
 				52863AAC26E81062001EF6A7 /* SceneDelegate.swift */,
 				52863AAE26E81062001EF6A7 /* ViewController.swift */,
@@ -263,6 +266,7 @@
 			files = (
 				52863AAF26E81062001EF6A7 /* ViewController.swift in Sources */,
 				52863AAB26E81062001EF6A7 /* AppDelegate.swift in Sources */,
+				52863ADD26E82595001EF6A7 /* Question1ViewController.swift in Sources */,
 				52863AAD26E81062001EF6A7 /* SceneDelegate.swift in Sources */,
 				52863ADB26E81CE4001EF6A7 /* ImageModel.swift in Sources */,
 			);
