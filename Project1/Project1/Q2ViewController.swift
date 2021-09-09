@@ -14,21 +14,44 @@ class Q2ViewController: UIViewController {
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var slider1: UISlider!
     @IBOutlet weak var stepper1: UIStepper!
+    @IBOutlet weak var sliderLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.q2ImgView.image = UIImage.init(named: "pineapples")
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
+        sliderLabel.text = "\(Int(sender.value))"
+        stepper1.value = (Double(sender.value))
+        if(sender.value == 5){
+            answerLabel.text = "Correct"
+            answerLabel.textAlignment = NSTextAlignment.center
+            answerLabel.backgroundColor = UIColor.green
+        }
+        else{
+            answerLabel.text = "Incorrect"
+            answerLabel.textAlignment = NSTextAlignment.center
+            answerLabel.backgroundColor = UIColor.red
+        }
+          }
+    
+    @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        slider1.value = Float(sender.value)
+        sliderLabel.text = Int(sender.value).description
+        if(sender.value == 5){
+            answerLabel.text = "Correct"
+            answerLabel.textAlignment = NSTextAlignment.center
+            answerLabel.backgroundColor = UIColor.green
+        }
+        else{
+            answerLabel.text = "Incorrect"
+            answerLabel.textAlignment = NSTextAlignment.center
+            answerLabel.backgroundColor = UIColor.red
+        }
     }
-    */
-
+    
 }
