@@ -15,6 +15,7 @@ class Q2ViewController: UIViewController {
     @IBOutlet weak var slider1: UISlider!
     @IBOutlet weak var stepper1: UIStepper!
     @IBOutlet weak var sliderLabel: UILabel!
+    @IBOutlet weak var nextBtn: UIButton!
     
     
     override func viewDidLoad() {

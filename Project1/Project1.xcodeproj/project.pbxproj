@@ -19,6 +19,7 @@
 		52863ADD26E82595001EF6A7 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ADC26E82595001EF6A7 /* Question1ViewController.swift */; };
 		52863AE126E97070001EF6A7 /* GameImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AE026E97070001EF6A7 /* GameImagesCollectionViewController.swift */; };
 		52863AE526E9857F001EF6A7 /* Q2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AE426E9857F001EF6A7 /* Q2ViewController.swift */; };
+		52863AE726EAAFFE001EF6A7 /* GameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AE626EAAFFE001EF6A7 /* GameEndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		52863ADC26E82595001EF6A7 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
 		52863AE026E97070001EF6A7 /* GameImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImagesCollectionViewController.swift; sourceTree = "<group>"; };
 		52863AE426E9857F001EF6A7 /* Q2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2ViewController.swift; sourceTree = "<group>"; };
+		52863AE626EAAFFE001EF6A7 /* GameEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				52863AAC26E81062001EF6A7 /* SceneDelegate.swift */,
 				52863AAE26E81062001EF6A7 /* ViewController.swift */,
 				52863AB026E81062001EF6A7 /* Main.storyboard */,
+				52863AE626EAAFFE001EF6A7 /* GameEndViewController.swift */,
 				52863AE426E9857F001EF6A7 /* Q2ViewController.swift */,
 				52863AE026E97070001EF6A7 /* GameImagesCollectionViewController.swift */,
 				52863ADA26E81CE4001EF6A7 /* ImageModel.swift */,
@@ -276,6 +279,7 @@
 				52863AE126E97070001EF6A7 /* GameImagesCollectionViewController.swift in Sources */,
 				52863ADD26E82595001EF6A7 /* Question1ViewController.swift in Sources */,
 				52863AAD26E81062001EF6A7 /* SceneDelegate.swift in Sources */,
+				52863AE726EAAFFE001EF6A7 /* GameEndViewController.swift in Sources */,
 				52863ADB26E81CE4001EF6A7 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
