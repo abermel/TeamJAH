@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523B215026EC0C5100EE89B3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B214F26EC0C5100EE89B3 /* TableViewController.swift */; };
 		52863AAB26E81062001EF6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AAA26E81062001EF6A7 /* AppDelegate.swift */; };
 		52863AAD26E81062001EF6A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AAC26E81062001EF6A7 /* SceneDelegate.swift */; };
 		52863AAF26E81062001EF6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AAE26E81062001EF6A7 /* ViewController.swift */; };
@@ -17,9 +18,10 @@
 		52863ACD26E81066001EF6A7 /* Project1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ACC26E81066001EF6A7 /* Project1UITests.swift */; };
 		52863ADB26E81CE4001EF6A7 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ADA26E81CE4001EF6A7 /* ImageModel.swift */; };
 		52863ADD26E82595001EF6A7 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863ADC26E82595001EF6A7 /* Question1ViewController.swift */; };
-		52863AE126E97070001EF6A7 /* GameImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AE026E97070001EF6A7 /* GameImagesCollectionViewController.swift */; };
 		52863AE526E9857F001EF6A7 /* Q2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AE426E9857F001EF6A7 /* Q2ViewController.swift */; };
 		52863AE726EAAFFE001EF6A7 /* GameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AE626EAAFFE001EF6A7 /* GameEndViewController.swift */; };
+		52863AEB26EBF104001EF6A7 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AEA26EBF104001EF6A7 /* CollectionViewController.swift */; };
+		52863AED26EBF464001EF6A7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52863AEC26EBF464001EF6A7 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		523B214F26EC0C5100EE89B3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		52863AA726E81062001EF6A7 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52863AAA26E81062001EF6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52863AAC26E81062001EF6A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +59,10 @@
 		52863ACE26E81066001EF6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52863ADA26E81CE4001EF6A7 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		52863ADC26E82595001EF6A7 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
-		52863AE026E97070001EF6A7 /* GameImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImagesCollectionViewController.swift; sourceTree = "<group>"; };
 		52863AE426E9857F001EF6A7 /* Q2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2ViewController.swift; sourceTree = "<group>"; };
 		52863AE626EAAFFE001EF6A7 /* GameEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndViewController.swift; sourceTree = "<group>"; };
+		52863AEA26EBF104001EF6A7 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		52863AEC26EBF464001EF6A7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,14 +113,16 @@
 		52863AA926E81062001EF6A7 /* Project1 */ = {
 			isa = PBXGroup;
 			children = (
+				523B214F26EC0C5100EE89B3 /* TableViewController.swift */,
 				52863ADC26E82595001EF6A7 /* Question1ViewController.swift */,
 				52863AAA26E81062001EF6A7 /* AppDelegate.swift */,
 				52863AAC26E81062001EF6A7 /* SceneDelegate.swift */,
 				52863AAE26E81062001EF6A7 /* ViewController.swift */,
 				52863AB026E81062001EF6A7 /* Main.storyboard */,
+				52863AEC26EBF464001EF6A7 /* CollectionViewCell.swift */,
+				52863AEA26EBF104001EF6A7 /* CollectionViewController.swift */,
 				52863AE626EAAFFE001EF6A7 /* GameEndViewController.swift */,
 				52863AE426E9857F001EF6A7 /* Q2ViewController.swift */,
-				52863AE026E97070001EF6A7 /* GameImagesCollectionViewController.swift */,
 				52863ADA26E81CE4001EF6A7 /* ImageModel.swift */,
 				52863AB326E81065001EF6A7 /* Assets.xcassets */,
 				52863AB526E81065001EF6A7 /* LaunchScreen.storyboard */,
@@ -273,11 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52863AEB26EBF104001EF6A7 /* CollectionViewController.swift in Sources */,
 				52863AE526E9857F001EF6A7 /* Q2ViewController.swift in Sources */,
+				52863AED26EBF464001EF6A7 /* CollectionViewCell.swift in Sources */,
 				52863AAF26E81062001EF6A7 /* ViewController.swift in Sources */,
 				52863AAB26E81062001EF6A7 /* AppDelegate.swift in Sources */,
-				52863AE126E97070001EF6A7 /* GameImagesCollectionViewController.swift in Sources */,
 				52863ADD26E82595001EF6A7 /* Question1ViewController.swift in Sources */,
+				523B215026EC0C5100EE89B3 /* TableViewController.swift in Sources */,
 				52863AAD26E81062001EF6A7 /* SceneDelegate.swift in Sources */,
 				52863AE726EAAFFE001EF6A7 /* GameEndViewController.swift in Sources */,
 				52863ADB26E81CE4001EF6A7 /* ImageModel.swift in Sources */,

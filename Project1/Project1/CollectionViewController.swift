@@ -1,16 +1,19 @@
 //
-//  GameImagesCollectionViewController.swift
+//  CollectionViewController.swift
 //  Project1
 //
-//  Created by Amanda Bermel on 9/8/21.
+//  Created by Amanda Bermel on 9/10/21.
 //
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "CollectCell"
 
-class GameImagesCollectionViewController: UICollectionViewController {
+class CollectionViewController: UICollectionViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    let names = ["psych","pineapples","psychSantaBarbara"]
+    let images: [UIImage] = [ UIImage(named: "psych")!, UIImage(named: "pineapples")!, UIImage(named: "psychSantaBarbara")!,]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,7 +21,7 @@ class GameImagesCollectionViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+//        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
     }
@@ -37,21 +40,30 @@ class GameImagesCollectionViewController: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return 3
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? CollectionViewCell {
     
         // Configure the cell
+            if let size = cell.imageView?.image?.size {
+                scrollView.contentSize = size
+            }
+            cell.imageView.image = images[indexPath.item]
     
         return cell
+        }
+        else {
+            fatalError("Could not dequeue cell")
+        }
     }
 
     // MARK: UICollectionViewDelegate
